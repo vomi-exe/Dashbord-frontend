@@ -1,0 +1,58 @@
+.topbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .left-topbar{
+        .title{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+
+            color: #000000;
+
+        }
+    }
+    .right-topbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        .search{
+            position: relative;
+            width: 180px;
+            input{
+                outline:none;
+                border: none;
+                background-color: white;
+                border-radius: 10px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #B0B0B0;
+                padding: 8px 15px 7px 15px;
+
+            }
+            img{
+                position: absolute;
+                right: 15px;
+                top: 9px;
+            }
+        }
+        .notification{
+            border-radius: 50%;
+        }
+        .avatar{
+            img{
+                border-radius: 50%;
+            }
+        }
+    }
+
+}

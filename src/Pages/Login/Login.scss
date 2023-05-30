@@ -1,0 +1,199 @@
+.login-wrapper{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    .left{
+        flex: 1.3803;
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .title{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 72px;
+            line-height: 88px;
+        }
+    }
+    .right{
+        flex: 2;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        background: #F5F5F5;
+        .right-container{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 385px;
+            .title{
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 44px;
+            }
+            .title-desc{
+                margin-top:5px;
+                font-family: 'Lato', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+            }
+            .sign-in-options{
+                margin-top: 26px;
+                display: flex;
+                width: 100%;
+                height: 30px;
+                align-items: center;
+                justify-content: space-between;
+                gap: 25px;
+                .google-sign-in{
+                    border-radius: 10px;
+                    background-color: #fff;
+                    width: 180px;
+                    height: 30px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0 19px;
+                    cursor: pointer;
+                }
+                .apple-sign-in{
+                    padding: 0 19px;
+                    border-radius: 10px;
+                    background-color: #fff;
+                    width: 180px;
+                    height: 30px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    cursor: pointer;
+                }
+            }
+            .simple-signon-container{
+                margin-top: 25px;
+                width: 100%;
+                height: 317px;
+                background-color: #fff;
+                border-radius: 20px;
+                padding: 30px;
+                box-sizing: border-box;
+                form{
+                    height: 100%;
+                    display: flex;
+                    width: 100%;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 20px;
+                    .email-field{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        div{
+                            font-family: 'Lato';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                        }
+                        input{
+                            margin-top: 10px;
+                            width: 100%;
+                            box-sizing: border-box;
+                            background: #F5F5F5;
+                            border-radius: 10px;
+                            border: none;
+                            outline: none;
+                            padding: 10px 15px 11px 15px;
+                            font-family: 'Lato', sans;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                        }
+                    }
+                    .password-field{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        div{
+                            font-family: 'Lato';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                        }
+                        input{
+                            margin-top: 10px;
+                            width: 100%;
+                            box-sizing: border-box;
+                            background: #F5F5F5;
+                            border-radius: 10px;
+                            border: none;
+                            outline: none;
+                            padding: 10px 15px 11px 15px;
+                            font-family: 'Lato', sans;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                        }
+                    }
+                    .password-forget{
+                        font-family: 'Lato', sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #346BD5;
+                        cursor: pointer;
+                    }
+                    .primary-btn{
+                        width: 100%;
+                        border-radius: 10px;
+                        background: black;
+                        color: white;
+                        height: 40px;
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .register-link{
+            font-family: 'Lato',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            span{
+                color: #346BD5;
+                cursor: pointer;
+            }
+        }
+    }
+}

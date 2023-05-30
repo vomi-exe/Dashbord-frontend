@@ -1,0 +1,29 @@
+.featured-info{
+    padding: 20px 25px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 221px;
+    height: 120px;
+    position: relative;
+    .icon-top{
+        position: absolute;
+        right: 25.23px;
+    }
+    .title{
+        margin-top: 25px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .amount{
+        margin-top:5px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+}
