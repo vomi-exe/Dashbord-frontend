@@ -1,7 +1,8 @@
 import React from "react";
 import "./Login.scss";
 
-const Login = () => {
+const Login = ({setUserAuth}) => {
+
   return (
     <div className="login-wrapper">
       <div className="left">
@@ -12,11 +13,11 @@ const Login = () => {
           <div className="title">Sign In</div>
           <div className="title-desc">Sign in to your account</div>
           <div className="sign-in-options">
-            <div className="google-sign-in">
+            <div onClick={setUserAuth} className="google-sign-in">
             <img src="./google-icon.png" alt="google-icon" />
               <div>Sign in with Google</div>
             </div>
-            <div className="apple-sign-in">
+            <div onClick={setUserAuth} className="apple-sign-in">
               <img src="./apple-icon.png" alt="apple-icon" />
               <div>Sign in with Apple</div>
             </div>
@@ -34,7 +35,7 @@ const Login = () => {
               <div className="password-forget">
                 Forgot password?
               </div>
-              <button type="submit" className="primary-btn">
+              <button onClick={setUserAuth} type="submit" className="primary-btn">
                 Sign In
               </button>
             </form>

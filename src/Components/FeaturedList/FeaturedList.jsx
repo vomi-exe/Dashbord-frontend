@@ -17,7 +17,7 @@ const arr = [{
   title: "Total Transactions",
   amount: "1,520",
   iconName: "transaction-img",
-  color: "#DDEFE0"
+  color: "#F4ECDD"
   },
   {
     id: 3,

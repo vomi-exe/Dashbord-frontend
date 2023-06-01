@@ -1,0 +1,107 @@
+.piechart{
+    width:  480px;
+    flex: 1;
+    height: 256px;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    .top{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin:10px 20px;
+        .top-left{
+            font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+        }
+        .top-right{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 5px;
+            margin-top:5px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #858585;
+            cursor: pointer;
+            &:hover{
+                text-decoration:underline;
+            }
+        }
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        height: 160px;
+        margin-top: 20px;
+        .chart{
+            flex: 1;
+        }
+        .legands{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            
+            div{
+                .legend-top{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 17px;
+                    .legand-color{
+                        width: 11px;
+                        height: 11px;
+                        border-radius: 50%;
+                    }
+                }
+                .legend-bottom{
+                    margin-left: 31px;
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #858585;
+                }
+            }
+            .legand-1{
+                .legend-top{
+                    .legand-color{
+                        background-color: #98D89E;
+                    }
+                }
+            }
+            .legand-2{
+                .legend-top{
+                    .legand-color{
+                        background-color: #F6DC7D;
+                    }
+                }
+            }
+            .legand-3{
+                .legend-top{
+                    .legand-color{
+                        background-color: #EE8484;
+                    }
+                }
+            }
+        }
+    }
+}
